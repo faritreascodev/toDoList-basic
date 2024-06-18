@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="toDoList.js" defer></script>
+</head>
+
+<body>
+    <main class="frente">
+        <section class="barra-lateral">
+            <h3>USUARIO</h3>
+            <div class="cuadro">
+                <nav class="indices">
+                    <a href=""> > SIN EMPEZAR</a>
+                    <a href=""> > PENDIENTES</a>
+                    <a href=""> > TERMINADOS</a>
+                </nav>
+            </div>
+        </section>
+        <div class="medio">
+            <section>
+                <h1>Lista de Tareas</h1>
+                <form action="">
+                    <input type="text" name="tarea" id="tarea" placeholder="Escribe una tarea...">
+                    <input type="submit" id="añadir" value="Agregar">
+                    <!-- <input type="submit" value="Eliminar"> -->
+                </form>
+            </section>
+            <article class="centro">
+                <ul id="tareas">Tareas: </ul>
+            </article>
+        </div>
+    </main>
+</body>
+</html>
